@@ -72,15 +72,15 @@ Three scenarios are implemented to study the impact of variations in feedback ga
 
 ### **b. Case 2: Low Position Feedback**
 
-* ( K_p = 0.01 )
-* ( K_v = 0 )
+* ( K_p = 0 )
+* ( K_v = 0.01 )
 
 <img width="1920" height="752" alt="model b" src="https://github.com/user-attachments/assets/ec38f630-a283-49af-a820-b357d634c9e2" />
 
 ### **c. Case 3: Combined Position and Velocity Feedback**
 
-* ( K_p = 0.01 )
-* ( K_v = 1.3 )
+* ( K_p = 1.3 )
+* ( K_v = 0.01 )
 
 <img width="1920" height="776" alt="model c" src="https://github.com/user-attachments/assets/a53220ed-b045-48ff-8b9e-2b50f42b21c9" />
 
@@ -103,7 +103,7 @@ The system responses corresponding to the above configurations show distinct cha
 
 <img width="1920" height="1025" alt="result model a " src="https://github.com/user-attachments/assets/0c0cd901-96e0-41e4-898c-b6f9a268c42a" />
 
-### **Case 2: ( K_p = 0.01, K_v = 0 )**
+### **Case 2: ( K_v = 0.01, K_p = 0 )**
 
 * The system becomes slow and underdamped.
 * Minimal oscillation but very slow convergence.
@@ -113,7 +113,7 @@ The system responses corresponding to the above configurations show distinct cha
 
 <img width="1920" height="1028" alt="result model b" src="https://github.com/user-attachments/assets/089db8d7-5d05-4dad-9d66-edb6ef60e771" />
 
-### **Case 3: ( K_p = 0.01, K_v = 1.3 )**
+### **Case 3: ( K_v = 0.01, K_p = 1.3 )**
 
 * Velocity feedback introduces damping and stabilizes the response.
 * System settles faster compared to Case 2.
